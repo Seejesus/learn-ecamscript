@@ -3,16 +3,32 @@
 //let과 const는 블락을 스코프 단위로 한다.
 //let은 할당되는 데이터가 변할 수 있는 변수이고, const는 변할 수 없는 데이터, 상수가 할당된다.
 
-var kkt_name = "고경태";
-kkt_name = "경태고";
+// 블럭 잡기 => 스코프 설정
 
-console.log(kkt_name);
-var getName = function ( ) {
-  let kkt_name = "미스터고";
-  return kkt_name;
-};
+// var kkt_name = "고경태";
+// kkt_name = "경태고";
 
-getName();
+// console.log(kkt_name);
+// var getName = function ( ) {
+//   let kkt_name = "미스터고";
+//   return kkt_name;
+// };
 
-const TO_BE_JOB = "developer";
-console.log(TO_BE_JOB);
+// getName();
+
+// const TO_BE_JOB = "developer";
+// console.log(TO_BE_JOB);
+
+
+console.log("JavaScript 프로그래밍");
+
+var variable = "전역 변수";
+const PI = 3.141592;
+
+{
+  let variable = "블럭의 지역 변수";
+  console.log(variable);
+}
+
+console.log(variable);
+console.log(`PI = ${PI}`);
