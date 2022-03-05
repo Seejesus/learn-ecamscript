@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "serve": "serve -s public"
+    },
+    "devDependencies": {
+        "serve": "^13.0.2"
+    }
+}
