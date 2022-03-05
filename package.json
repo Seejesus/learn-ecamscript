@@ -1,8 +1,8 @@
 {
     "scripts": {
-        "serve": "serve -s public"
+        "serve": "live-server public"
     },
     "devDependencies": {
-        "serve": "^13.0.2"
+        "live-server": "^1.2.1"
     }
 }
