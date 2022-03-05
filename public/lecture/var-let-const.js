@@ -22,7 +22,7 @@
 
 console.log("JavaScript 프로그래밍");
 
-var variable = "전역 변수";
+var variable = "global 변수";
 const PI = 3.141592;
 
 {
